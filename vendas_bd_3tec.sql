@@ -21,7 +21,7 @@ create table perfil(
 create table login(
 	user varchar(255),
 	passaword varchar(255),
-	id int(11)primary key auto_increment,
+	id int(11) primary key auto_increment,
 	login_id int(11),
 	responsavel_id int(11)
 );
