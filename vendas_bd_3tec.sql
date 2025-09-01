@@ -98,3 +98,14 @@ create table endereco (
     id int(11) primary key auto_increment,
     loja_id int(11)
 );
+
+create table responsavel (
+	nome varchar(255),
+    email varchar(255),
+    telefone varchar(255),
+    cpf varchar(255),
+    endereco varchar(255),
+    id int(11) primary key auto_increment,
+    endereco_id int(11),
+    pet_id int(11)
+);
