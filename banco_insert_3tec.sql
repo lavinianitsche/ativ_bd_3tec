@@ -20,6 +20,12 @@ insert into perfil(fotoUrl, id) values("foto.jpg", 4);
 
 insert into pet(nome, idade, raca, porte, sexo, responsavel, id, perfil_id) values("amora", 6, "spitz", "pequeno", "feminino", "lavinia", 4, 8);
 
+insert into remedio(venda, estoque, id, consumivel_id) values("45,99", "naosei", 4, 7);
+
+insert into responsavel(nome, email, telefone, cpf, endereco, id, endereco_id, pet_id) values("lavinia", "lavi123@gmail", "112233445", "123.456.789-10", "av brasil", 1, 2, 3);
+
+insert into venda(loja, valor_total, valor_item, data_compra, forma_pagamento, estado, id) values("mypet", "15,50", "6,99", "2025-04-04", "cartao", "parana", 4);
+
 select * from agenda;
 
 select * from catalogo;
@@ -27,3 +33,21 @@ select * from catalogo;
 select * from consumivel;
 
 select * from endereco;
+
+select * from estetica;
+
+select * from estoque;
+
+select * from login;
+
+select * from loja;
+
+select * from perfil;
+
+select * from pet;
+
+select * from remedio;
+
+select * from responsavel;
+
+select * from venda;
